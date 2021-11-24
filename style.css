@@ -58,6 +58,7 @@
     padding:50px;
     display: flex;
     justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
     width: 55%;
@@ -119,12 +120,30 @@
     margin: 15px;
 }
 
+ul .Categoria {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 72px;
+    height: 26px;
+    background: #2E245E;
+}
+
 #txtBusca {
     position: absolute;
     width: 246px;
     height: 50px;
     left: 1138px;
     top: 97px;
+    color: #828282;
     background: #F5F5F5;
     border: 1px solid #F5F5F5;
     box-sizing: border-box;
@@ -167,12 +186,12 @@
     height: 462px;
     left: 1138px;
     top: 200px;
-    background: #F5F5F5;
     align-items: center;
     display:flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
+    background: #F5F5F5
 }
 
 .areadoCarrinho h3{
@@ -194,3 +213,16 @@
     color: #828282;
     margin: 10px;
 }
+
+
+
+.Cards a:hover {color: #828282;}
+
+.Cards h3:hover {color: #6B54DE;}
+
+#adicionarCarrinho:hover {color: #6B54DE;}
+
+#txtBusca:hover {color: #2E245E;}
+
+.MenuPrincipal li:hover {color: #2E245E;}
+
