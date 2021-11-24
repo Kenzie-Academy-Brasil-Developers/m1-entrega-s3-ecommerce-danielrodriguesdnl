@@ -1,0 +1,196 @@
+.Topo h3{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 24px;
+    width: 212px;
+    height: 24px;
+    margin-left: 58px;
+    margin-right: 58px;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+.MenuPrincipal {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #828282;
+    float:right;
+    margin-right: 197px;
+    margin-top: 27px;
+    margin-bottom: 27px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.MenuPrincipal li {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.Todos {
+    color:#333333;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.Cards img {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+}
+
+.Cards {
+    float: left;
+    margin-top: 99px;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 55%;
+    grid-template-columns: 350px 350px 350px;
+}
+
+.Cards p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color:#828282;
+    width: 269px;
+    height: 33px;
+    margin: 15px;
+}
+
+.Cards h3 {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color:#333333;
+    margin: 15px;
+}
+
+.Cards a {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2E245E;
+    margin: 15px;
+}
+
+.Cards li {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 2px solid #F5F5F5;
+    box-sizing: border-box;
+    width: 300;
+    height: 326;
+
+}
+
+.Cards button {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #828282;
+    border: none;
+    margin: 15px;
+}
+
+#txtBusca {
+    position: absolute;
+    width: 246px;
+    height: 50px;
+    left: 1138px;
+    top: 97px;
+    background: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+}
+
+#btnBusca {
+    position: absolute;
+    width: 96px;
+    height: 50px;
+    left: 1392px;
+    top: 97px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    position: absolute; 
+    background: #6B54DE;
+}
+
+#carrinho {
+    position: absolute;
+    width: 347px;
+    height: 50px;
+    left: 1138px;
+    top: 157px;
+    background: #6B54DE;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.areadoCarrinho {
+    position: absolute;
+    width: 347px;
+    height: 462px;
+    left: 1138px;
+    top: 200px;
+    background: #F5F5F5;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.areadoCarrinho h3{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    color: #333333;
+    margin: 10px;
+}
+
+.areadoCarrinho p {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    margin: 10px;
+}

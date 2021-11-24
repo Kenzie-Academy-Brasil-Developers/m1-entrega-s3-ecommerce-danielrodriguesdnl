@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeLauere</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+<body>
+    <!-- CABEÇALHO -->
+    <header class="Topo">
+        <!-- LOGO -->
+        <h3>DeLauere</h3>
+      
+        <!-- MENU DO CABEÇALHO -->
+        <nav>
+            <ul class="MenuPrincipal">
+                <li class=Todos><strong>Todos</strong></li>
+                <li>Acessórios</li>
+                <li>Calçados</li>
+                <li>Camisetas</li>
+            </ul>
+       </nav>
+        
+    </header>
+    <!-- PARTE PRINCIPAL DA PÁGINA -->
+    <main class="CorpoPagina">
+       <!-- SEÇÃO DE PRODUTOS -->
+        <section id="Vitrine">
+            <article>
+                <!-- LISTA DE PRODUTOS  -->
+                <ul class=Cards>
+
+                    <li>
+                      <img src="https://www.lojahipnose.com.br/octopus/design/images/193/products/b/64_08170.jpg" alt="">
+                      <h3>Jaqueta Corta-vento</h3>
+                      <p>Dê um up no seu guarda-roupas com essa Jaqueta super estilosa.</p>
+                      <a>R$200,00</a>
+                      <button id="adicionarCarrinho">Adicionar ao carrinho</button>
+                    </li>
+          
+                    <li>
+                      <img src="https://static.dafiti.com.br/p/Confec%C3%A7%C3%A3o-Kit-Cal%C3%A7a-Jogger-Masculina-El%C3%A1stico-com-Elastano-7306-3229168-1-zoom.jpg" alt="">
+                      <h3>Calça Jogger</h3>
+                      <p>Um produto que chegou a pouco tempo mas já está conquistando seu espaço nos guarda-roupas.</p>
+                      <a>R$100,00</a>
+                      <button id="adicionarCarrinho">Adicionar ao carrinho</button>
+                    </li>
+          
+                    <li>
+                      <img src="https://lojaam.com.br/media/catalog/product/cache/1/image/365x365/9df78eab33525d08d6e5fb8d27136e95/s/i/siteeeeeeee.jpg" alt="">
+                      <h3>Camisa DryFit</h3>
+                      <p>Ideal para você que pratica esportes.</p>
+                      <a>R$70,00</a>
+                      <button id="adicionarCarrinho">Adicionar ao carrinho</button>
+                    </li>
+          
+                    <li>
+                      <img src="https://www.guller.com.br/2457-home_default/tenis-masculino-esportivo-casual-top-ver%C3%A3o-outono-unisex-hiper-homens.jpg" alt="">
+                      <h3>Tênis de Corrida</h3>
+                      <p>Além do belo design este produto é excelente para praticar esportes.</p>
+                      <a>R$250,00</a>
+                      <button id="adicionarCarrinho">Adicionar ao carrinho</button>
+                    </li>
+          
+                    <li>
+                      <img src="data:image/jpeg;base64,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" alt="">
+                      <h3>Camisa Termica</h3>
+                      <p>Camisa de manga longa com proteção UV.</p>
+                      <a>R$100,00</a>
+                      <button id="adicionarCarrinho">Adicionar ao carrinho</button>
+                    </li>
+          
+                    <li>
+                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoDx3nNF2gwGpYtthosO6A6re8XXh2T72hkQ&usqp=CAU" alt="">
+                      <h3>Shorts Liso</h3>
+                      <p>Produto leve, confortavel e bonito.</p>
+                      <a>R$60,00</a>
+                      <button id="adicionarCarrinho">Adicionar ao carrinho</button>
+                    </li>
+          
+                  </ul>
+          
+            </article>
+        </section>
+       
+        <!-- CARRINHO E PESQUISA  -->
+        <section class="Pesquisa">
+            <!-- PESQUISA  -->
+            <div class="AreadePesquisa">
+                <input type="text" id="txtBusca" value="Digite aqui sua pesquisa "/>
+                <button id="btnBusca">Pesquisar</button>
+                
+            </div>
+            
+            <!-- CARRINHO -->
+            <div class="carrinhodeCompras">
+                <button id="carrinho">Carrinho de compras</button>
+                <div class="areadoCarrinho">
+                    <h3><strong>Carrinho vázio</strong></h3>
+                    <p>Adicione itens</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./script.js"></script>  
+</body>
+</html>
